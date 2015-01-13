@@ -1,0 +1,11 @@
+name = Entercom Fields
+description = Defines fields used on Entercom sites.
+core = 7.x
+package = Entercom Content
+version = 7.x-1.0
+project = entercom_fields
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_file_image_alt_text
+features[field_base][] = field_file_image_title_text
